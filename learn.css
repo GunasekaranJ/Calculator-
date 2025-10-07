@@ -115,7 +115,7 @@ h1{
 }
 
 .simplification pre h1, .percentage pre h1, .siandci pre h1, .volume pre h1{ 
-    font-size: 25px;
+    font-size: 2rem;
 }
 
 .simplification, .percentage, .siandci, .volume{
@@ -134,7 +134,7 @@ h1{
 
 .simplification pre ,.percentage pre, .siandci pre, .volume pre{
     margin: auto;
-    font-size: 8px;
+    font-size: 1.5rem;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
 }
 
@@ -181,6 +181,13 @@ h1{
     .navbar{
         justify-content: space-between;
     }
+    .simplification pre h1, .percentage pre h1, .siandci pre h1, .volume pre h1{ 
+    font-size: 1.5rem;
+    }
+
+    .simplification pre ,.percentage pre, .siandci pre, .volume pre{
+    font-size: 1rem;
+    }
     
     h1{
         font-size: 30px;
@@ -197,3 +204,4 @@ h1{
 
 
 }
+
