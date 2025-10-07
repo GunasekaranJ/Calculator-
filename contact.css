@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    font-family: "Smooch Sans", sans-serif;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    top: 0;            
+    left: 0;
+    width: 100%;       
+    height: 100px;       
+    z-index: 2;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    font-size: 25px;
+    margin-left: 65%;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+}
+
+
+h1{
+   margin-left: 30px;
+   font-family: "Marcellus", serif;
+   font-size: 40px;
+    font-weight: 100;
+}
+
+.menu-icon{
+    font-size: 40px;
+    margin-right: 30px;
+    margin-left: 30%;
+    display: none;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.left-arrow{
+    font-size: 40px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.left-arrow a{
+    text-decoration: none;
+    color: black;
+}
+
+.side-menu{ 
+    width: 40%;
+    height: 100vh;
+    background-color: #0d1821;
+    position: fixed;
+    top: 0;
+    left: -40%;
+    z-index: 3;
+    transition: 1s;
+}
+
+.side-menu ul{
+    margin-top: 10%;
+}
+
+.side-menu li{
+    padding: 2px;
+    text-align: center;
+    height: 40px;
+    border-bottom: 0.5px solid rgba(128, 128, 128, 0.251);
+}
+
+.closebutton{
+    color: white;
+    font-size: 32px;
+    text-align: end;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.side-menu  a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-family: "Smooch Sans", sans-serif;
+  letter-spacing: 3px;
+  display: block;
+}
+
+.side-menu li:hover a{
+    color: #0bfeb5;
+}
+
+.side-menu li:hover{
+    background-color: rgba(128, 128, 128, 0.103);
+}
+ 
+.greeting{
+   position: relative;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacts a{
+    text-decoration: none;
+    color: black;
+    text-align: justify;
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-family: "Marcellus", serif;
+}
+
+@media screen and (max-width:600px){
+
+    .menu{
+        display: none;
+    }
+    
+    .navbar{
+        justify-content: space-between;
+    }
+    
+    h1{
+        font-size: 30px;
+        margin-left: 30%;
+    }
+      .menu-icon{
+        display: block;
+        font-size: 30px;
+      }
+
+      .left-arrow{
+        font-size: 30px;
+      }
+
+}

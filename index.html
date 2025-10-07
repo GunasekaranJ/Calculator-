@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale= 1.0">
+    <title>Choose to Learn and Try</title>
+    <link rel="icon" type="image/png" href="logo.jpeg">
+    <link rel="stylesheet" href="index.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+<body>
+    <nav class="navbar">
+    
+        <h1 class="h11">Math</h1>
+        <h1 class="h12">Inside</h1>
+    
+    <div class="menu">
+        <p><a href="index.html">Home</a></p>
+        <p><a href="learn.html">Learn</a></p>
+        <p><a href="contact.html">Contact</a></p>
+    </div>
+    
+    <div class="menu-icon">
+        <i class="fa-solid fa-bars" onclick="Showmenu()"></i>
+    </div>
+
+    </nav>
+
+    <!--  Header  -->
+    <div class="header">
+
+            <div class="box1" onclick="window.location.href='calci.html'">
+              <h2>Click here for</h2>
+              <h1 class="fon">Calculator</h1>
+              <img src="calci.webp" alt="" height="150px" width="150px">
+              <div class="arrow1">
+               <a href="calci.html"> <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+
+            </div>
+
+            <div class="box2"  onclick="window.location.href='learn.html'">
+                <h2>Click here to</h2>
+                <h1 class="fon">Learn</h1>
+                <img src="book.jpeg" alt="" height="150px" width="150px">
+                <div class="arrow2">
+                <a href="learn.html"> <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+
+            </div>
+
+            <div class="box3"  onclick="window.location.href='contact.html'">
+              <h2>Click here for</h2>
+              <h1 class="fon">Contact</h1>
+              <img src="contact.jpeg" alt="" height="150px" width="150px">
+              <div class="arrow3">
+                <i class="fa-solid fa-arrow-right"></i>
+              </div>
+
+            </div>
+
+    </div>
+    <div class="side-menu">
+    <div class="closebutton">
+        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+    </div>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="learn.html">Learn</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="calci.html">Calculator</a></li>
+    </ul>
+ </div>
+ <script src="calci.js"></script>
+</body>
+</html>
