@@ -115,7 +115,7 @@ h1{
 }
 
 .simplification pre h1, .percentage pre h1, .siandci pre h1, .volume pre h1{ 
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 .simplification, .percentage, .siandci, .volume{
@@ -134,7 +134,7 @@ h1{
 
 .simplification pre ,.percentage pre, .siandci pre, .volume pre{
     margin: auto;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
 }
 
@@ -204,4 +204,5 @@ h1{
 
 
 }
+
 
