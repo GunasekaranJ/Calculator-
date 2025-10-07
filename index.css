@@ -39,9 +39,8 @@ h1{
 }
 
 .menu-icon{
-    font-size: 40px;
+    font-size: 30px;
     margin-right: 30px;
-    margin-left: 30%;
     display: none;
     z-index: 2;
     cursor: pointer;
@@ -170,7 +169,7 @@ h1{
 
     .menu-icon{
         display: block;
-        margin-left: 19%;
+        margin-left: 25%;
     }
 
     .box1:hover, .box2:hover, .box3:hover{
@@ -217,4 +216,5 @@ h1{
     margin-left: 0;
     margin-bottom: 4px;
 }
+
 }
